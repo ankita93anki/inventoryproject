@@ -1,0 +1,9 @@
+instruction=>
+1=> install xampp server
+2=> start xampp server
+3=> run this command ->composer update 
+4=> replace the file name from .env.example to .env
+5=> run that command-> php artisan key:generate and this command will write API_KEY value in .env file
+6=>make database (the same name of databse in .ENV file)
+7=> for migration run this command-> php artisan migrate
+8=>then run this command for run this application-> php artisan serve
